@@ -1,0 +1,22 @@
+
+## order service  9191
+server:
+  port: 9191
+spring:
+  h2:
+    console:
+      enabled: true
+ 
+  application:
+     name: ORDER-SERVICE
+  
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/hibernate
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+      
